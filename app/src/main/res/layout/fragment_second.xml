@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/iv_news"
+                android:layout_width="match_parent"
+                android:layout_height="260dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="The former virtual machine is already running, such as"
+
+                android:id="@+id/tv_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="123" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:text="The former virtual machine is already running, such as"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_auth_name"
+                android:layout_width="match_parent"
+                android:text="The former virtual machine is already running, such as"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center" />
+
+            <TextView
+
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center" />
+
+            <TextView
+            android:text="The former virtual machine is already running, such as"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center" />
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RELATED STORIES"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
